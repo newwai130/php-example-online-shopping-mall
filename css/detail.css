@@ -1,0 +1,97 @@
+.product-meta-data p{
+    color: #6d6d6d;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 400;
+}
+
+.product-meta-data h1, .product-meta-data h2, .product-meta-data h3, .product-meta-data h4, .product-meta-data h5, .product-meta-data h6 {
+    color: #242424;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.product-meta-data a {
+    -webkit-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color: #131212;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.product-meta-data .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.single_product_desc .amado-btn {
+    display: inline-block;
+    min-width: 160px;
+    height: 55px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 0 7px;
+    font-size: 18px;
+    line-height: 56px;
+    background-color: #fbb710;
+    font-weight: 400;
+	
+	width: 310px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.single_product_desc .mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.cart-btn p {
+    margin-bottom: 0;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #f5f7fa;
+}
+
+.cart-btn input {
+    text-align: center;
+    background-color: #f5f7fa;
+    height: 40px;
+    width: 100px;
+    border: none;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+    color: #959595;
+}
+
+.cart-btn .qty-plus {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    height: 20px;
+    cursor: pointer;
+    color: #959595;
+}
+
+.cart-btn .qty-minus {
+    position: absolute;
+    top: 21px;
+    right: 0;
+    line-height: 1;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+    color: #959595;
+}
